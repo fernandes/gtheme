@@ -1,0 +1,64 @@
+.mdc-select--language {
+  background-color: initial !important;
+  height: 30px;
+  text-align: left;
+}
+
+.mdc-select--language > .mdc-line-ripple {
+  background-color: initial !important;
+}
+
+.mdc-select--language:hover::before,
+.mdc-ripple-upgraded--background-focused::before {
+  opacity: 0 !important;
+}
+
+.mdc-select--language > .mdc-select__selected-text {
+  border-bottom-color: white !important;
+}
+
+.mdc-select--language > .mdc-select__selected-text {
+  font-size: 12px !important;
+  line-height: 16.8px;
+  font-weight: 400;
+  padding: 4px 0px;
+  height: 30px;
+}
+
+.mdc-select--language > .mdc-select__dropdown-icon {
+  top: 0px;
+}
+
+.mdc-menu-language {
+  top: 10px !important;
+  min-height: 95%;
+  min-width: 190px;
+}
+
+.mdc-menu-language > ul {
+}
+
+.mdc-menu-language > ul > li {
+  height: 32px;
+  font-size: 12px;
+}
+
+.mdc-button--no-background:hover::before {
+  background-color: initial;
+}
+
+.mdc-button--no-padding {
+  padding: 0px;
+}
+
+.mdc-text-field--focused > .mdc-notched-outline > div {
+  border-color: #1a73e8 !important;
+}
+
+.mdc-text-field--focused > .mdc-notched-outline > div .mdc-floating-label {
+  color: #1a73e8 !important;
+}
+
+.mdc-text-field--focused > input {
+  caret-color: #1a73e8 !important;
+}

@@ -1,0 +1,24 @@
+@tailwind base;
+
+@tailwind components;
+
+/* h2 {
+  @apply text-xl;
+}
+
+a {
+  @apply text-teal-600 underline inline-block;
+}
+
+a:hover {
+  @apply text-teal-700;
+} */
+
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  border-width: 1px;
+  border-style: none;
+}

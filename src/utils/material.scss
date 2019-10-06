@@ -1,0 +1,13 @@
+$mdc-theme-primary: #1a73e8;
+
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+// for enhanced select
+@import "@material/list/mdc-list";
+@import "@material/menu-surface/mdc-menu-surface";
+@import "@material/menu/mdc-menu";
+// for enhanced select
+@import "@material/select/mdc-select";
+@import "@material/ripple/mdc-ripple";
+
+@import "_fonts";
